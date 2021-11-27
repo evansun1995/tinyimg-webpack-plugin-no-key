@@ -1,0 +1,9 @@
+1.我们直接写出来的是 module，webpack 处理时是 chunk，最后生成浏览器可以直接运行的 bundle。
+
+2.node中使用commonjs规范：
+导出使用module.exports={a:1} 或者  modult.exports.a=1  或者 exports.a=1,（注意不能直接exports={a:1}，否则会切断exports和module的引用关系）
+引入使用let obj = require('xxx.js')
+
+注意 区分es6的import  以及  webpack根据es6规范自身实现的静态资源import
+
+3.JSON Schema
