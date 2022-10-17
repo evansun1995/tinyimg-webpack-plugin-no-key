@@ -2,3 +2,5 @@ node_modules
 dist
 study
 TINY_IMG_CACHE
+package-lock.json
+yarn.lock

@@ -1,3 +1,5 @@
 node_modules
 dist
 TINY_IMG_CACHE
+package-lock.json
+yarn.lock
