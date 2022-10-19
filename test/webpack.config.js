@@ -10,7 +10,7 @@ const TinyimgPlugin = require('../src')
 
 const PATH = {
   entryHtml: Path.join(__dirname, 'src/index.html'),
-  entryIco: Path.join(__dirname, 'src/IMG/favicon.ico'),
+  entryIco: Path.join(__dirname, 'src/images/favicon.ico'),
   entryJs: Path.join(__dirname, 'src/index.js'),
   output: Path.join(__dirname, 'dist')
 }

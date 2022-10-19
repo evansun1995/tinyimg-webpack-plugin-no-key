@@ -9,7 +9,7 @@ const { RawSource } = require('webpack-sources') // 处理webpack文件对象
 const { RandomNumInt, ByteSize, RoundNum } = require('../utils/index')
 const md5 = require('md5')
 
-// 伪造请求头，生成随机ip，避免请求数量限制6
+// 伪造请求头，生成随机ip，避免请求数量限制
 function randomHeader() {
   // 随机生成4位的ip
   const ip = new Array(4)
@@ -103,7 +103,6 @@ async function useCache() {}
 // 压缩图片代码
 async function compressImg(assets, path) {
   try {
-    console.log('path--------', path)
     // assets用于表示webpack编译的资源文件的
     // 在assets对象中，key是文件的名加后缀，value是一个对象，里面包含source和size等属性（可枚举和不可枚举属性）
     // 图片经过对应的loader（file-loader）处理后，在assets对象中会生成'[path][name].[ext]'这样格式的key，也可以配置使用hash加密

@@ -1,6 +1,6 @@
 {
   "name": "tinyimg-webpack-plugin-no-key",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "A webpack plugin for compressing images using TinyPNG",
   "main": "src/index.js",
   "repository": "https://gitee.com/evan-sun/tinyimg-webpack-plugin",
